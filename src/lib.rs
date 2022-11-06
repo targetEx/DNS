@@ -1,6 +1,7 @@
 mod DNSRR;
 mod DNSPacket;
 mod DNSHeader;
+mod DnsRType;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
